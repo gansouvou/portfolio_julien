@@ -1,6 +1,7 @@
 {
     "routes":[
-        {"src":"/","dest":"/portfolio.html"}
+        {"src":"/","dest":"/templates/index.html"},
+        {"src":"/form","dest":"/templates/form.html"}
     ]
 
 }
