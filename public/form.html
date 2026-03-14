@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire de contact</title>
+  <meta name="description" content="Portfolio personnel présentant mes compétences, projets et coordonnées.">
+  <meta name="keywords" content="Portfolio, Formulaire, Développeur Web, Projets, Compétences">
+  <meta name="author" content="Julien H. GANSOUVOU">
+  <link rel="stylesheet" href="portfolio.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form id="contact-form">
+    <h2>Formulaire de contact</h2>
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+
+    <label for="adress">Adresse :</label>
+    <input type="text" id="adress" name="adress" placeholder="Entrez votre adresse">
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" placeholder="Décrivez votre site" required></textarea>
+
+    <button type="submit">Créer</button>
+    <p id="form-feedback" class="feedback"></p>
+  </form>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
